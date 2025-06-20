@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+nav img{
+    height: 30px;
+}
+nav .logoname{
+    font-size: 20px;
+    margin-top: 2px;
+}
+ nav .link1{
+    margin-left: 30px;
+    margin-top: 6px;
+ }
+ nav .link2{
+    margin-left: 15px;
+    margin-top: 6px;
+ }
+ .container{
+    background-color: antiquewhite;
+    height: 93vh;
+    
+ }
+ .container h1{
+   padding-bottom: 20px;
+    font-size: 20px;
+    margin-left: 35px;
+ }
+ .songlist{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/486/610/323/headphones-women-music-headphones-girl-monochrome-black-background-1920x1080-entertainment-music-hd-art-wallpaper-preview.jpg);
+    width: 95%;
+    height: 85%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 35px;
+    color: white;
+    padding: 8px;
+    color: black;
+ }
+ .songlist .songItem{
+    width: 700px;
+    padding-right: 10px;
+    padding-left: 2px;
+    background-color: white;
+    height: 35px;
+    margin: 7px 7px 15px 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 23px;
+ }
+ .songlist .first{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .songItem img{
+    height: 27px;
+    border-radius: 20px;
+    margin-left: 2px;
+   margin-right: 10px;
+ }
+.bottom{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.bottom #myProgressBar{
+   width: 85%;
+   margin-left: 110px;
+}
+.bottom .icons{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.bottom .icons i{
+   margin: 5px;
+}
